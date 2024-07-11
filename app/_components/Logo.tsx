@@ -1,10 +1,17 @@
-// import Image from "next/image";
 import Link from "next/link";
 
-function Logo() {
+interface ILogoProps {
+  width: string;
+  height: string;
+  className: string;
+}
+
+function Logo({ width, height, className }: ILogoProps) {
   return (
-    <Link href="/" className="text-primary basis-5/12">
-      <svg className="text-primary hover:text-white transition duration-300 h-16 w-[360px]">
+    <Link href="/" className={className}>
+      <svg
+        className={`text-primary hover:text-white transition duration-300 ${height} ${width}`}
+      >
         <use href="/symbol-defs.svg#icon-logo"></use>
       </svg>
     </Link>

@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Unbounded } from "next/font/google";
-import "./globals.css";
+import "./_styles/globals.css";
+
 import Header from "./_components/Header";
+import Footer from "./_components/Footer";
 
 const unbounded = Unbounded({ subsets: ["latin"] });
 
@@ -21,6 +23,8 @@ export default function RootLayout({
         <Header />
 
         <main>{children}</main>
+
+        <Footer />
       </body>
     </html>
   );

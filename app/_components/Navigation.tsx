@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Navigation() {
   return (
-    <div className="flex gap-6 items-center">
+    <nav className="flex gap-6 items-center">
       <ul className="flex gap-3">
         <li>
           <Link
@@ -29,12 +29,12 @@ function Navigation() {
         </li>
       </ul>
 
-      <Link href="">
+      <Link href="tel:555-666-7777">
         <svg className="text-primary hover:text-white transition duration-300 w-8 h-8">
           <use href="/symbol-defs.svg#icon-phone"></use>
         </svg>
       </Link>
-    </div>
+    </nav>
   );
 }
 
