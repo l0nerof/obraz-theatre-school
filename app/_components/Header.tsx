@@ -2,6 +2,7 @@ import Carousel from "./Carousel";
 import Contacts from "./Contacts";
 import Logo from "./Logo";
 import Navigation from "./Navigation";
+import Promo from "./Promo";
 
 function Header() {
   return (
@@ -12,7 +13,9 @@ function Header() {
         <Navigation />
       </div>
 
-      <Carousel className="bg-primary mt-6" />
+      <Carousel className="bg-primary mt-6">
+        <Promo />
+      </Carousel>
     </header>
   );
 }

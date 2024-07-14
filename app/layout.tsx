@@ -5,7 +5,7 @@ import "./_styles/globals.css";
 import Header from "./_components/Header";
 import Footer from "./_components/Footer";
 
-const unbounded = Unbounded({ subsets: ["latin"] });
+const unbounded = Unbounded({ subsets: ["latin", "cyrillic"] });
 
 export const metadata: Metadata = {
   title: "Obraz",
@@ -19,10 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={unbounded.className}>
+      <body className={`${unbounded.className} bg-black min-h-screen`}>
         <Header />
 
-        <main>{children}</main>
+        <main className="min-h-screen mx-auto">{children}</main>
 
         <Footer />
       </body>

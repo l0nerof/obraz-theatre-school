@@ -1,7 +1,13 @@
+import AboutUsSection from "./_components/AboutUsSection";
+import CounterSection from "./_components/CounterSection";
+// import HeroSection from "./_components/HeroSection";
+
 export default function Home() {
   return (
-    <main className="text-primary bg-black flex min-h-screen flex-col items-center justify-between p-24">
-      Hello
-    </main>
+    <>
+      {/* <HeroSection /> */}
+      <AboutUsSection />
+      <CounterSection />
+    </>
   );
 }

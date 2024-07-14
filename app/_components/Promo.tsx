@@ -1,4 +1,4 @@
-function CarouselItem() {
+function Promo() {
   return (
     <p className="uppercase text-lg font-light mx-3">
       Знижки на всі курси <span className="font-medium">10%</span> до{" "}
@@ -7,4 +7,4 @@ function CarouselItem() {
   );
 }
 
-export default CarouselItem;
+export default Promo;
