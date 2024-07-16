@@ -1,33 +1,75 @@
-// "use client";
+"use client";
 
-// import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
 
-// import "swiper/css";
-// import "swiper/css/pagination";
+import "swiper/css";
+import "swiper/css/pagination";
 
-// import { Pagination } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
+import SliderSlide from "./SliderSlide";
 
-// function Slider() {
-//   return (
-//     <Swiper
-//       direction={"vertical"}
-//       pagination={{
-//         clickable: true,
-//       }}
-//       modules={[Pagination]}
-//       className="mySwiper text-primary max-w-7xl"
-//     >
-//       <SwiperSlide className="h-7">Slide 1</SwiperSlide>
-//       <SwiperSlide>Slide 2</SwiperSlide>
-//       <SwiperSlide>Slide 3</SwiperSlide>
-//       <SwiperSlide>Slide 4</SwiperSlide>
-//       <SwiperSlide>Slide 5</SwiperSlide>
-//       <SwiperSlide>Slide 6</SwiperSlide>
-//       <SwiperSlide>Slide 7</SwiperSlide>
-//       <SwiperSlide>Slide 8</SwiperSlide>
-//       <SwiperSlide>Slide 9</SwiperSlide>
-//     </Swiper>
-//   );
-// }
+function Slider() {
+  return (
+    <Swiper
+      direction={"vertical"}
+      pagination={{
+        clickable: true,
+      }}
+      modules={[Pagination, Autoplay]}
+      className="swiper-container w-full h-[600px]"
+      autoplay={{ delay: 2000 }}
+      loop={true}
+    >
+      <SwiperSlide className="bg-[url('/show.jpg')] bg-cover bg-no-repeat">
+        <SliderSlide
+          mainText="Інші продають курси з акторської майстерності, "
+          coloredText="ми — пропонуємо тобі успіх і любов"
+        >
+          Записатися на пробне
+        </SliderSlide>
+      </SwiperSlide>
+      <SwiperSlide className="bg-[url('/camp.jpg')] bg-cover bg-no-repeat">
+        <SliderSlide
+          mainText="Літній акторський табір "
+          coloredText="OBRAZ-KinomaniaClub"
+        >
+          Зв&#39;язатися з менеджером
+        </SliderSlide>
+      </SwiperSlide>
+      <SwiperSlide className="bg-[url('/show.jpg')] bg-cover bg-no-repeat">
+        <SliderSlide
+          mainText="Інші продають курси з акторської майстерності, "
+          coloredText="ми — пропонуємо тобі успіх і любов"
+        >
+          Записатися на пробне
+        </SliderSlide>
+      </SwiperSlide>
+      <SwiperSlide className="bg-[url('/camp.jpg')] bg-cover bg-no-repeat">
+        <SliderSlide
+          mainText="Літній акторський табір "
+          coloredText="OBRAZ-KinomaniaClub"
+        >
+          Зв&#39;язатися з менеджером
+        </SliderSlide>
+      </SwiperSlide>
+      <SwiperSlide className="bg-[url('/show.jpg')] bg-cover bg-no-repeat">
+        <SliderSlide
+          mainText="Інші продають курси з акторської майстерності, "
+          coloredText="ми — пропонуємо тобі успіх і любов"
+        >
+          Записатися на пробне
+        </SliderSlide>
+      </SwiperSlide>
+      <SwiperSlide className="bg-[url('/camp.jpg')] bg-cover bg-no-repeat">
+        <SliderSlide
+          mainText="Літній акторський табір "
+          coloredText="OBRAZ-KinomaniaClub"
+        >
+          Зв&#39;язатися з менеджером
+        </SliderSlide>
+      </SwiperSlide>
+    </Swiper>
+  );
+}
 
-// export default Slider;
+export default Slider;

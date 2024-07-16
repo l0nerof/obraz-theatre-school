@@ -1,7 +1,13 @@
-// import Slider from "./Slider";
+import Slider from "./Slider";
 
-// function HeroSection() {
-//   return <section>{/* <Slider /> */}</section>;
-// }
+function HeroSection() {
+  return (
+    <section>
+      <div className="mx-auto">
+        <Slider />
+      </div>
+    </section>
+  );
+}
 
-// export default HeroSection;
+export default HeroSection;

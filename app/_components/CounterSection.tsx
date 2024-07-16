@@ -1,7 +1,7 @@
 "use client";
 
-import Link from "next/link";
 import CountUp from "react-countup";
+import Button from "./Button";
 
 function CounterSection() {
   return (
@@ -84,12 +84,7 @@ function CounterSection() {
             </p>
           </div>
 
-          <Link
-            href="/"
-            className="uppercase text-black bg-primary px-8 py-2 rounded-full font-bold text-2xl hover:bg-white transition duration-300"
-          >
-            Доєднуйся до образу
-          </Link>
+          <Button>Доєднуйся до образу</Button>
         </div>
       </div>
     </section>
