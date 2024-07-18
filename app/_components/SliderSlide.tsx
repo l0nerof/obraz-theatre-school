@@ -1,7 +1,8 @@
+import { ReactNode } from "react";
 import Button from "./Button";
 
 interface ISliderSlideProps {
-  children: string;
+  children: ReactNode;
   mainText: string;
   coloredText: string;
 }
@@ -9,12 +10,12 @@ interface ISliderSlideProps {
 function SliderSlide({ children, mainText, coloredText }: ISliderSlideProps) {
   return (
     <div className="flex justify-center items-center h-full">
-      <div className="max-w-7xl w-full flex flex-col items-start gap-9">
+      <div className="max-w-[1296px] w-full flex flex-col items-start gap-9">
         <p className="max-w-[822px] text-white text-[64px] leading-none font-medium">
           {mainText}
           <span className="text-primary">{coloredText}</span>
         </p>
-        <Button>{children}</Button>
+        <Button type="link">{children}</Button>
       </div>
     </div>
   );

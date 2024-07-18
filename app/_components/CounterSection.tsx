@@ -6,7 +6,7 @@ import Button from "./Button";
 function CounterSection() {
   return (
     <section className="pb-[120px]">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-[1124px] mx-auto">
         <ul className="flex gap-9">
           <li>
             <CountUp
@@ -84,7 +84,7 @@ function CounterSection() {
             </p>
           </div>
 
-          <Button>Доєднуйся до образу</Button>
+          <Button type="link">Доєднуйся до образу</Button>
         </div>
       </div>
     </section>

@@ -4,7 +4,7 @@ import Clients from "./Clients";
 function AboutUsSection() {
   return (
     <section className="pt-[120px] pb-[86px]">
-      <div className="max-w-6xl mx-auto flex gap-[86px]">
+      <div className="max-w-[1175px] mx-auto flex gap-[86px]">
         <div className="uppercase text-white">
           <h2 className="font-extrabold text-5xl mb-6">Про нас</h2>
           <p className="font-medium">
