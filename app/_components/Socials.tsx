@@ -4,7 +4,7 @@ import Link from "next/link";
 function Socials() {
   return (
     <div className="flex items-center gap-6">
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col">
         <Link
           href="mailto:ts_obraz@ukr.net"
           className="flex items-center gap-3 text-gray hover:text-primary [&>svg]:hover:fill-primary transition duration-300"

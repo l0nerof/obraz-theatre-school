@@ -6,7 +6,7 @@ function Navigation() {
       <ul className="flex gap-3">
         <li>
           <Link
-            href="/about-course"
+            href="#contact"
             className="flex items-center gap-[2px] text-white hover:text-primary transition duration-300 uppercase"
           >
             Курси
