@@ -1,4 +1,4 @@
-import Slider from "./Slider";
+import Slider from "../ui/Slider";
 
 function HeroSection() {
   return (

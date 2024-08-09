@@ -1,7 +1,9 @@
-import AboutUsSection from "./_components/AboutUsSection";
-import ContactFormSection from "./_components/ContactFormSection";
-import CounterSection from "./_components/CounterSection";
-import HeroSection from "./_components/HeroSection";
+import AboutUsSection from "./_components/AboutUs/AboutUsSection";
+import AdvantagesSection from "./_components/Advantages/AdvantagesSection";
+import ContactFormSection from "./_components/ContactForm/ContactFormSection";
+import CounterSection from "./_components/Counter/CounterSection";
+import CoursesSection from "./_components/Courses/CoursesSection";
+import HeroSection from "./_components/Hero/HeroSection";
 
 export default function Home() {
   return (
@@ -9,6 +11,8 @@ export default function Home() {
       <HeroSection />
       <AboutUsSection />
       <CounterSection />
+      <CoursesSection />
+      <AdvantagesSection />
       <ContactFormSection>Маєте запитання?</ContactFormSection>
     </>
   );

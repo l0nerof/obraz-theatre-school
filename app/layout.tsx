@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { Unbounded } from "next/font/google";
 import "./_styles/globals.css";
 
-import Header from "./_components/Header";
-import Footer from "./_components/Footer";
+import Header from "./_components/Header/Header";
+import Footer from "./_components/Footer/Footer";
 
 const unbounded = Unbounded({ subsets: ["latin", "cyrillic"] });
 

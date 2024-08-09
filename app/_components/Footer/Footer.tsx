@@ -1,6 +1,6 @@
-import Carousel from "./Carousel";
-import Logo from "./Logo";
-import Promo from "./Promo";
+import Carousel from "../ui/Carousel";
+import Logo from "../ui/Logo";
+import Promo from "../ui/Promo";
 import Rights from "./Rights";
 import Socials from "./Socials";
 

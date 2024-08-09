@@ -1,7 +1,7 @@
 "use client";
 
 import CountUp from "react-countup";
-import Button from "./Button";
+import Button from "../ui/Button";
 
 function CounterSection() {
   return (

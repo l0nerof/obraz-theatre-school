@@ -1,8 +1,8 @@
-import Carousel from "./Carousel";
+import Carousel from "../ui/Carousel";
 import Contacts from "./Contacts";
-import Logo from "./Logo";
+import Logo from "../ui/Logo";
 import Navigation from "./Navigation";
-import Promo from "./Promo";
+import Promo from "../ui/Promo";
 
 function Header() {
   return (
