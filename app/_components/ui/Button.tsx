@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 
 interface IButtonProps {
   children: ReactNode;
-  type: string;
+  type?: string;
 }
 
 function Button({ children, type }: IButtonProps) {

@@ -84,7 +84,7 @@ function CounterSection() {
             </p>
           </div>
 
-          <Button type="link">Доєднуйся до образу</Button>
+          <Button>Доєднуйся до образу</Button>
         </div>
       </div>
     </section>

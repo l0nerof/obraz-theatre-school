@@ -2,7 +2,7 @@ import CourseItem from "./CourseItem";
 
 export default function CoursesSection() {
   return (
-    <section id="courses" className="pb-[120px]">
+    <section id="courses" className="pb-[120px] pt-[120px]">
       <div className="max-w-[1124px] mx-auto">
         <h2 className="uppercase text-center text-primary font-extrabold text-5xl">
           Наші курси

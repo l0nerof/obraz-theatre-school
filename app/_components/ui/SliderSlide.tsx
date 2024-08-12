@@ -15,7 +15,7 @@ function SliderSlide({ children, mainText, coloredText }: ISliderSlideProps) {
           {mainText}
           <span className="text-primary">{coloredText}</span>
         </p>
-        <Button type="link">{children}</Button>
+        <Button>{children}</Button>
       </div>
     </div>
   );

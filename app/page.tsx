@@ -1,4 +1,5 @@
 import AboutUsSection from "./_components/AboutUs/AboutUsSection";
+import ActualSection from "./_components/Actual/ActualSection";
 import AdvantagesSection from "./_components/Advantages/AdvantagesSection";
 import ContactFormSection from "./_components/ContactForm/ContactFormSection";
 import CounterSection from "./_components/Counter/CounterSection";
@@ -11,6 +12,7 @@ export default function Home() {
       <HeroSection />
       <AboutUsSection />
       <CounterSection />
+      <ActualSection />
       <CoursesSection />
       <AdvantagesSection />
       <ContactFormSection>Маєте запитання?</ContactFormSection>
