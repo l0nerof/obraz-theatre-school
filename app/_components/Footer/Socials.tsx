@@ -7,9 +7,9 @@ function Socials() {
       <div className="flex flex-col">
         <Link
           href="mailto:ts_obraz@ukr.net"
-          className="flex items-center gap-3 text-gray hover:text-primary [&>svg]:hover:fill-primary transition duration-300"
+          className="flex items-center gap-3 font-light text-xs text-gray hover:text-primary [&>svg]:hover:fill-primary transition duration-300"
         >
-          <svg className="fill-gray w-3 h-3">
+          <svg className="fill-gray w-[10px] h-2">
             <use href="/symbol-defs.svg#icon-mail"></use>
           </svg>
           ts_obraz@ukr.net
@@ -78,7 +78,7 @@ function Socials() {
         </ul>
       </div>
 
-      <div className="flex gap-3">
+      <div className="flex items-center gap-3">
         <Link
           href="https://www.education.ua/"
           rel="noopener noreferrer"

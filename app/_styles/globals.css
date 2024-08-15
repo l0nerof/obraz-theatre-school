@@ -26,4 +26,25 @@
     background-repeat: no-repeat;
     background-color: transparent;
   }
+
+  .swiper-container .swiper-pagination-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .swiper-container
+    .swiper-pagination-horizontal
+    .swiper-pagination-bullet-active {
+    width: 18px;
+    height: 20px;
+    display: block;
+    background-image: url("/mask.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+  }
 }

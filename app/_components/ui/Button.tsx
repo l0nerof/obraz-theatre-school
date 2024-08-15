@@ -11,7 +11,7 @@ function Button({ children, type }: IButtonProps) {
     return (
       <button
         type="submit"
-        className="uppercase text-primary bg-black px-8 py-2 rounded-full font-bold text-2xl hover:bg-secondary transition duration-300"
+        className="uppercase text-primary bg-black px-4 py-6 rounded-2xl font-medium leading-normal w-full hover:bg-secondary transition duration-300"
       >
         {children}
       </button>
@@ -20,7 +20,7 @@ function Button({ children, type }: IButtonProps) {
   return (
     <Link
       href="/"
-      className="uppercase text-black bg-primary px-8 py-2 rounded-full font-bold text-2xl hover:bg-white transition duration-300"
+      className="uppercase text-black bg-primary px-12 py-4 rounded-2xl font-semibold text-xl hover:bg-white transition duration-300"
     >
       {children}
     </Link>

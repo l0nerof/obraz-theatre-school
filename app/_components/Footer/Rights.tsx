@@ -5,11 +5,11 @@ function Rights() {
     <div className="flex flex-col items-center gap-2">
       <Link
         href="/"
-        className="underline text-gray hover:text-primary transition duration-300"
+        className="underline text-gray text-xs hover:text-primary transition duration-300"
       >
         Політика конфіденційності
       </Link>
-      <p className="text-gray">© 2024 OBRAZ. All right reserved.</p>
+      <p className="text-gray text-xs">© 2024 OBRAZ. All right reserved.</p>
     </div>
   );
 }

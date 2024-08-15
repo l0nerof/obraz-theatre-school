@@ -1,72 +1,24 @@
 "use client";
 
 import CountUp from "react-countup";
+
 import Button from "../ui/Button";
+import CounterItem from "./CounterItem";
 
 function CounterSection() {
   return (
     <section className="pb-[120px]">
       <div className="max-w-[1124px] mx-auto">
         <ul className="flex gap-9">
-          <li>
-            <CountUp
-              start={0}
-              end={15}
-              enableScrollSpy
-              scrollSpyOnce={true}
-              className="text-primary font-medium text-[64px]"
-            />
-            <p className="text-white font-bold text-xl">
-              років успішної театральної практики в Києві
-            </p>
-          </li>
-
-          <li>
-            <CountUp
-              start={0}
-              end={65}
-              scrollSpyOnce={true}
-              className="text-primary font-medium text-[64px]"
-            />
-            <p className="text-white font-bold text-xl">випускних вистав</p>
-          </li>
-
-          <li>
-            <CountUp
-              start={0}
-              end={597}
-              enableScrollSpy
-              scrollSpyOnce={true}
-              className="text-primary font-medium text-[64px]"
-            />
-            <p className="text-white font-bold text-xl">відкритих показів</p>
-          </li>
-
-          <li>
-            <CountUp
-              start={0}
-              end={37}
-              enableScrollSpy
-              scrollSpyOnce={true}
-              className="text-primary font-medium text-[64px]"
-            />
-            <p className="text-white font-bold text-xl">
-              нагород на фестивалях і конкурсах
-            </p>
-          </li>
-
-          <li>
-            <CountUp
-              start={0}
-              end={76}
-              enableScrollSpy
-              scrollSpyOnce={true}
-              className="text-primary font-medium text-[64px]"
-            />
-            <p className="text-white font-bold text-xl">
-              студентів вступило до театралних ВНЗ
-            </p>
-          </li>
+          <CounterItem end={15}>
+            років успішної театральної практики в Києві
+          </CounterItem>
+          <CounterItem end={65}>випускних вистав</CounterItem>
+          <CounterItem end={597}>відкритих показів</CounterItem>
+          <CounterItem end={37}>нагород на фестивалях і конкурсах</CounterItem>
+          <CounterItem end={76}>
+            студентів вступило до театралних ВНЗ
+          </CounterItem>
         </ul>
 
         <div className="flex flex-col justify-center items-center mt-8 gap-8">
@@ -77,11 +29,9 @@ function CounterSection() {
               separator=""
               enableScrollSpy
               scrollSpyOnce={true}
-              className="text-white font-medium text-8xl"
+              className="text-white font-medium text-5xl"
             />
-            <p className="text-white font-bold text-2xl">
-              Випускників театральної школи
-            </p>
+            <p className="text-white text-2xl">Випускників театральної школи</p>
           </div>
 
           <Button>Доєднуйся до образу</Button>

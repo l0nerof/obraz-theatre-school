@@ -1,10 +1,10 @@
-import Slider from "../ui/Slider";
+import HeroSlider from "./HeroSlider";
 
 function HeroSection() {
   return (
     <section>
       <div className="mx-auto">
-        <Slider />
+        <HeroSlider />
       </div>
     </section>
   );

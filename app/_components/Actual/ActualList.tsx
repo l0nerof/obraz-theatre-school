@@ -2,7 +2,7 @@ import ActualItem from "./ActualItem";
 
 export default function ActualList() {
   return (
-    <ul className="flex mt-12 justify-between gap-12 items-center">
+    <ul className="flex mt-4 justify-between gap-8 items-center">
       <ActualItem type="Aкції">
         Відкрито набір на курс “Тіло не обманює”!
       </ActualItem>

@@ -21,7 +21,7 @@ function Navigation() {
             href="/blog"
             className="flex items-center gap-[2px] text-white hover:text-primary transition duration-300 uppercase"
           >
-            Статті
+            Блог
             <svg className="fill-primary w-4 h-4">
               <use href="/symbol-defs.svg#icon-arrow-outward"></use>
             </svg>

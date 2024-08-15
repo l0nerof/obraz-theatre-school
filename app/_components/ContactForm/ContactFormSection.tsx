@@ -7,12 +7,12 @@ interface IContactFormSectionProps {
 
 function ContactFormSection({ children }: IContactFormSectionProps) {
   return (
-    <section className="py-[120px]">
-      <div className="max-w-[1124px] rounded-3xl mx-auto py-12 px-8 bg-primary flex flex-col items-center">
-        <h3 className="text-center font-semibold text-5xl text-black mb-3">
+    <section className="pb-32">
+      <div className="max-w-[976px] rounded-3xl mx-auto py-12 px-8 bg-primary flex flex-col">
+        <h3 className="font-semibold text-[32px] text-black mb-3">
           {children}
         </h3>
-        <p className="text-center text-xl text-black">
+        <p className="text-black leading-normal">
           Залиште свою заявку і наша команда зв’яжеться з Вами у найближчі 24
           години
         </p>
@@ -20,13 +20,13 @@ function ContactFormSection({ children }: IContactFormSectionProps) {
         <form action="" className="flex gap-7 mt-8">
           <input
             type="text"
-            className="bg-transparent border-2 rounded-[20px] text-lg p-4 border-black text-black placeholder:text-black"
+            className="bg-transparent border-2 rounded-2xl leading-normal py-4 px-8 border-black text-black placeholder:text-black"
             placeholder="Ім'я*"
             required
           />
           <input
             type="text"
-            className="bg-transparent border-2 rounded-[20px] text-lg p-4 border-black text-black  placeholder:text-black"
+            className="bg-transparent border-2 rounded-2xl leading-normal p-4 px-8 border-black text-black  placeholder:text-black"
             placeholder="Телефон*"
             required
           />
