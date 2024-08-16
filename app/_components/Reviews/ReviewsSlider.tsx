@@ -24,7 +24,7 @@ function ReviewsSlider() {
     >
       <SwiperSlide>
         <ReviewSlide
-          photoUrl="/mask.png"
+          photoUrl="/avatars/avatar1.jpg"
           user="Gavin E"
           course="Кіно-табір 2024"
           rating={4}
@@ -40,7 +40,7 @@ function ReviewsSlider() {
 
       <SwiperSlide>
         <ReviewSlide
-          photoUrl="/mask.png"
+          photoUrl="/avatars/avatar2.jpg"
           user="Володімир"
           course="Акторська майстерність"
           rating={4}
@@ -55,7 +55,7 @@ function ReviewsSlider() {
 
       <SwiperSlide>
         <ReviewSlide
-          photoUrl="/mask.png"
+          photoUrl="/avatars/avatar3.jpg"
           user="Кєрило"
           course="Тілесна терапія"
           rating={5}
@@ -71,7 +71,7 @@ function ReviewsSlider() {
 
       <SwiperSlide>
         <ReviewSlide
-          photoUrl="/mask.png"
+          photoUrl="/avatars/avatar1.jpg"
           user="Дарій"
           course="Ораторська майтерність"
           rating={5}
@@ -87,7 +87,7 @@ function ReviewsSlider() {
 
       <SwiperSlide>
         <ReviewSlide
-          photoUrl="/mask.png"
+          photoUrl="/avatars/avatar2.jpg"
           user="Gavin E"
           course="Кіно-табір 2024"
           rating={4}
@@ -103,7 +103,7 @@ function ReviewsSlider() {
 
       <SwiperSlide>
         <ReviewSlide
-          photoUrl="/mask.png"
+          photoUrl="/avatars/avatar3.jpg"
           user="Володімир"
           course="Акторська майстерність"
           rating={4}
@@ -118,7 +118,7 @@ function ReviewsSlider() {
 
       <SwiperSlide>
         <ReviewSlide
-          photoUrl="/mask.png"
+          photoUrl="/avatars/avatar1.jpg"
           user="Кєрило"
           course="Тілесна терапія"
           rating={5}
@@ -134,7 +134,7 @@ function ReviewsSlider() {
 
       <SwiperSlide>
         <ReviewSlide
-          photoUrl="/mask.png"
+          photoUrl="/avatars/avatar2.jpg"
           user="Дарій"
           course="Ораторська майтерність"
           rating={5}

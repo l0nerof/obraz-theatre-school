@@ -11,7 +11,7 @@ function Contacts() {
             target="_blank"
           >
             <svg className="fill-primary hover:fill-white transition duration-300 w-6 h-6">
-              <use href="/symbol-defs.svg#icon-instagram"></use>
+              <use href="/icons/symbol-defs.svg#icon-instagram"></use>
             </svg>
           </Link>
         </li>
@@ -23,7 +23,7 @@ function Contacts() {
             target="_blank"
           >
             <svg className="fill-primary hover:fill-white transition duration-300 w-6 h-6">
-              <use href="/symbol-defs.svg#icon-facebook"></use>
+              <use href="/icons/symbol-defs.svg#icon-facebook"></use>
             </svg>
           </Link>
         </li>
@@ -35,7 +35,7 @@ function Contacts() {
             target="_blank"
           >
             <svg className="fill-primary hover:fill-white transition duration-300 w-6 h-6">
-              <use href="/symbol-defs.svg#icon-youtube"></use>
+              <use href="/icons/symbol-defs.svg#icon-youtube"></use>
             </svg>
           </Link>
         </li>

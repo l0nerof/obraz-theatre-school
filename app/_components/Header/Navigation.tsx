@@ -11,7 +11,7 @@ function Navigation() {
           >
             Курси
             <svg className="fill-primary w-4 h-4">
-              <use href="/symbol-defs.svg#icon-arrow-outward"></use>
+              <use href="/icons/symbol-defs.svg#icon-arrow-outward"></use>
             </svg>
           </Link>
         </li>
@@ -23,7 +23,7 @@ function Navigation() {
           >
             Блог
             <svg className="fill-primary w-4 h-4">
-              <use href="/symbol-defs.svg#icon-arrow-outward"></use>
+              <use href="/icons/symbol-defs.svg#icon-arrow-outward"></use>
             </svg>
           </Link>
         </li>
@@ -31,7 +31,7 @@ function Navigation() {
 
       <Link href="tel:555-666-7777">
         <svg className="text-primary hover:text-white transition duration-300 w-8 h-8">
-          <use href="/symbol-defs.svg#icon-phone"></use>
+          <use href="/icons/symbol-defs.svg#icon-phone"></use>
         </svg>
       </Link>
     </nav>

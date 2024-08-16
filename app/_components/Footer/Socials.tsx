@@ -10,7 +10,7 @@ function Socials() {
           className="flex items-center gap-3 font-light text-xs text-gray hover:text-primary [&>svg]:hover:fill-primary transition duration-300"
         >
           <svg className="fill-gray w-[10px] h-2">
-            <use href="/symbol-defs.svg#icon-mail"></use>
+            <use href="/icons/symbol-defs.svg#icon-mail"></use>
           </svg>
           ts_obraz@ukr.net
         </Link>
@@ -23,7 +23,7 @@ function Socials() {
               target="_blank"
             >
               <svg className="fill-primary hover:fill-white transition duration-300 w-4 h-4">
-                <use href="/symbol-defs.svg#icon-telegram"></use>
+                <use href="/icons/symbol-defs.svg#icon-telegram"></use>
               </svg>
             </Link>
           </li>
@@ -35,7 +35,7 @@ function Socials() {
               target="_blank"
             >
               <svg className="fill-primary hover:fill-white transition duration-300 w-4 h-4">
-                <use href="/symbol-defs.svg#icon-facebook"></use>
+                <use href="/icons/symbol-defs.svg#icon-facebook"></use>
               </svg>
             </Link>
           </li>
@@ -47,7 +47,7 @@ function Socials() {
               target="_blank"
             >
               <svg className="fill-primary hover:fill-white transition duration-300 w-4 h-4">
-                <use href="/symbol-defs.svg#icon-youtube"></use>
+                <use href="/icons/symbol-defs.svg#icon-youtube"></use>
               </svg>
             </Link>
           </li>
@@ -59,7 +59,7 @@ function Socials() {
               target="_blank"
             >
               <svg className="fill-primary hover:fill-white transition duration-300 w-4 h-4">
-                <use href="/symbol-defs.svg#icon-tiktok"></use>
+                <use href="/icons/symbol-defs.svg#icon-tiktok"></use>
               </svg>
             </Link>
           </li>
@@ -71,7 +71,7 @@ function Socials() {
               target="_blank"
             >
               <svg className="fill-primary hover:fill-white transition duration-300 w-4 h-4">
-                <use href="/symbol-defs.svg#icon-instagram"></use>
+                <use href="/icons/symbol-defs.svg#icon-instagram"></use>
               </svg>
             </Link>
           </li>
@@ -83,17 +83,15 @@ function Socials() {
           href="https://www.education.ua/"
           rel="noopener noreferrer"
           target="_blank"
-        >
-          <Image src="/education.png" alt="Sponsor" width={88} height={36} />
-        </Link>
+          className="bg-[url('/sponsors/education.png')] bg-cover bg-center bg-no-repeat w-[88px] h-10"
+        ></Link>
 
         <Link
           href="https://www.bodo.ua/ua/"
           rel="noopener noreferrer"
           target="_blank"
-        >
-          <Image src="/bodo.png" alt="Sponsor" width={88} height={36} />
-        </Link>
+          className="bg-[url('/sponsors/bodo.jpg')] bg-cover bg-center bg-no-repeat w-[88px] h-10"
+        ></Link>
       </div>
     </div>
   );

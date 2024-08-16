@@ -34,8 +34,8 @@ function ReviewSlide({
           <p className="text-white text-xs">{course}</p>
         </div>
 
-        <svg className="fill-primary hover:fill-white transition duration-300 w-6 h-6">
-          <use href="/symbol-defs.svg#icon-instagram"></use>
+        <svg className="size-6">
+          <use href="/icons/symbol-defs.svg#icon-google"></use>
         </svg>
       </div>
 

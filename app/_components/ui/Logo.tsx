@@ -12,7 +12,7 @@ function Logo({ width, height, className }: ILogoProps) {
       <svg
         className={`text-primary hover:text-white transition duration-300 ${height} ${width}`}
       >
-        <use href="/symbol-defs.svg#icon-logo"></use>
+        <use href="/icons/symbol-defs.svg#icon-logo"></use>
       </svg>
     </Link>
   );

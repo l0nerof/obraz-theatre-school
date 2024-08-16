@@ -11,10 +11,10 @@ export default function CourseItem({ children, photoUrl }: ICourseItemProps) {
     <li>
       <Link
         href="/"
-        className="flex flex-col items-center text-white hover:text-primary duration-300 transition-all"
+        className="flex flex-col items-center text-white [&>div]:hover:grayscale-0 hover:text-primary duration-300 transition"
       >
         <div
-          className={`w-[330px] h-[324px] ${photoUrl} bg-cover bg-no-repeat bg-center rounded-full border-primary border-[5px]`}
+          className={`w-[330px] h-[324px] ${photoUrl} bg-cover bg-no-repeat bg-center rounded-full border-primary border-[5px] grayscale transition duration-300`}
         ></div>
 
         <p className="mt-4 uppercase text-center font-bold text-xl">

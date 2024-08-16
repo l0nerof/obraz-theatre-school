@@ -19,11 +19,11 @@ function AdvantagesSlider() {
       autoplay={{ delay: 4000 }}
       loop={true}
     >
-      <SwiperSlide className="bg-[url('/show.jpg')] bg-cover bg-no-repeat"></SwiperSlide>
-      <SwiperSlide className="bg-[url('/camp.jpg')] bg-cover bg-no-repeat"></SwiperSlide>
-      <SwiperSlide className="bg-[url('/show.jpg')] bg-cover bg-no-repeat"></SwiperSlide>
-      <SwiperSlide className="bg-[url('/camp.jpg')] bg-cover bg-no-repeat"></SwiperSlide>
-      <SwiperSlide className="bg-[url('/show.jpg')] bg-cover bg-no-repeat"></SwiperSlide>
+      <SwiperSlide className="bg-[url('/shows/show.jpg')] bg-cover bg-no-repeat"></SwiperSlide>
+      <SwiperSlide className="bg-[url('/shows/camp.jpg')] bg-cover bg-no-repeat"></SwiperSlide>
+      <SwiperSlide className="bg-[url('/shows/show.jpg')] bg-cover bg-no-repeat"></SwiperSlide>
+      <SwiperSlide className="bg-[url('/shows/camp.jpg')] bg-cover bg-no-repeat"></SwiperSlide>
+      <SwiperSlide className="bg-[url('/shows/show.jpg')] bg-cover bg-no-repeat"></SwiperSlide>
     </Swiper>
   );
 }
