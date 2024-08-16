@@ -7,8 +7,8 @@ interface IContactFormSectionProps {
 
 function ContactFormSection({ children }: IContactFormSectionProps) {
   return (
-    <section className="pb-32">
-      <div className="max-w-[976px] rounded-3xl mx-auto py-12 px-8 bg-primary flex flex-col">
+    <section className="pb-32 xl:pb-16">
+      <div className="max-w-[976px] rounded-3xl mx-auto py-12 px-8 bg-primary flex flex-col xl:max-w-[904px]">
         <h3 className="font-semibold text-[32px] text-black mb-3">
           {children}
         </h3>

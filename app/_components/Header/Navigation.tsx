@@ -3,7 +3,7 @@ import Link from "next/link";
 function Navigation() {
   return (
     <nav className="flex gap-6 items-center">
-      <ul className="flex gap-3">
+      <ul className="flex gap-3 md:hidden">
         <li>
           <Link
             href="#courses"

@@ -3,12 +3,13 @@ import CountUp from "react-countup";
 
 interface ICounterItemProps {
   children: ReactNode;
+  className?: string;
   end: number;
 }
 
-function CounterItem({ children, end }: ICounterItemProps) {
+function CounterItem({ children, end, className }: ICounterItemProps) {
   return (
-    <li>
+    <li className={`${className}`}>
       <CountUp
         start={0}
         end={end}

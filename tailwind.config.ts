@@ -20,6 +20,13 @@ const config: Config = {
         white: "#F9F3DE",
         black: "#0B0B0B",
       },
+      screens: {
+        xs: "320px",
+        sm: { max: "480px" },
+        md: { max: "768px" },
+        lg: { max: "1024px" },
+        xl: { max: "1440px" },
+      },
     },
   },
   plugins: [],

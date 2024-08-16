@@ -21,6 +21,20 @@ function ReviewsSlider() {
       className="swiper-container h-[400px]"
       autoplay={{ delay: 4000 }}
       loop={true}
+      breakpoints={{
+        320: {
+          slidesPerView: 1,
+        },
+        700: {
+          slidesPerView: 2,
+        },
+        1150: {
+          slidesPerView: 3,
+        },
+        1400: {
+          slidesPerView: 4,
+        },
+      }}
     >
       <SwiperSlide>
         <ReviewSlide

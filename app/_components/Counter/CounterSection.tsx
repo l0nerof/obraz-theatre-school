@@ -3,23 +3,13 @@
 import CountUp from "react-countup";
 
 import Button from "../ui/Button";
-import CounterItem from "./CounterItem";
+import CounterList from "./CounterList";
 
 function CounterSection() {
   return (
-    <section className="pb-[120px]">
-      <div className="max-w-[1124px] mx-auto">
-        <ul className="flex gap-9">
-          <CounterItem end={15}>
-            років успішної театральної практики в Києві
-          </CounterItem>
-          <CounterItem end={65}>випускних вистав</CounterItem>
-          <CounterItem end={597}>відкритих показів</CounterItem>
-          <CounterItem end={37}>нагород на фестивалях і конкурсах</CounterItem>
-          <CounterItem end={76}>
-            студентів вступило до театралних ВНЗ
-          </CounterItem>
-        </ul>
+    <section className="pb-[120px] xl:pb-16">
+      <div className="max-w-[1124px] mx-auto xl:max-w-[928px]">
+        <CounterList />
 
         <div className="flex flex-col justify-center items-center mt-8 gap-8">
           <div className="flex flex-col items-center gap-2">

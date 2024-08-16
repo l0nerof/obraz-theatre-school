@@ -1,10 +1,9 @@
-import Image from "next/image";
 import Link from "next/link";
 
 function Socials() {
   return (
-    <div className="flex items-center gap-6">
-      <div className="flex flex-col">
+    <div className="flex items-center gap-6 xl:flex-col xl:items-end xl:gap-4">
+      <div className="flex flex-col xl:items-end">
         <Link
           href="mailto:ts_obraz@ukr.net"
           className="flex items-center gap-3 font-light text-xs text-gray hover:text-primary [&>svg]:hover:fill-primary transition duration-300"
