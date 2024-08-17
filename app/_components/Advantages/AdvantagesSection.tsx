@@ -3,14 +3,14 @@ import AdvantagesSlider from "./AdvantagesSlider";
 
 export default function AdvantagesSection() {
   return (
-    <section className="pb-32 xl:pb-16">
-      <div className="max-w-[1148px] mx-auto flex justify-between gap-5 xl:flex-col xl:max-w-[750px]">
+    <section className="pb-32 xl:pb-16 lg:pb-16">
+      <div className="max-w-[1148px] mx-auto flex justify-between gap-5 xl:flex-col xl:max-w-[750px] lg:max-w-[704px] lg:flex-col">
         <div className="basis-2/4">
           <div>
-            <h2 className="text-white uppercase font-semibold text-5xl xl:text-center">
+            <h2 className="text-white uppercase font-semibold text-5xl xl:text-center lg:text-center">
               Досі вагаєшся?
             </h2>
-            <p className="text-white mt-4 leading-tight xl:text-center">
+            <p className="text-white mt-4 leading-tight xl:text-center lg:text-center">
               <span className="text-primary">OBRAZ</span> — перша незалежна
               театральна школа у Києві, яка започаткувала викладання акторської
               майстерності не тільки для професіоналів, а й для усіх охочих.
@@ -24,7 +24,7 @@ export default function AdvantagesSection() {
           </div>
 
           <div className="mt-8">
-            <h3 className="text-white uppercase font-medium text-xl xl:text-center">
+            <h3 className="text-white uppercase font-medium text-xl xl:text-center lg:text-center">
               Як працює театр-школа <span className="text-primary">obraz</span>
             </h3>
 
@@ -32,7 +32,7 @@ export default function AdvantagesSection() {
           </div>
         </div>
 
-        <div className="h-full text-white w-[400px] basis-2/5 text-center xl:hidden">
+        <div className="h-full text-white w-[400px] basis-2/5 text-center xl:hidden lg:hidden">
           <AdvantagesSlider />
         </div>
       </div>

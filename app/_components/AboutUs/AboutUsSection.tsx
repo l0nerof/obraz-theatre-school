@@ -3,9 +3,9 @@ import Clients from "./Clients";
 
 function AboutUsSection() {
   return (
-    <section className="pt-32 pb-16 xl:pt-8 xl:pb-[78px]">
-      <div className="max-w-[1174px] mx-auto flex gap-[109px] xl:flex-col xl:max-w-[750px] xl:gap-6 xl:items-center">
-        <div className="uppercase text-white xl:text-center">
+    <section className="pt-32 pb-16 xl:pt-8 xl:pb-[78px] lg:pt-8 lg:pb-16">
+      <div className="max-w-[1174px] mx-auto flex gap-[109px] xl:flex-col xl:max-w-[750px] xl:gap-6 xl:items-center lg:max-w-[704px] lg:flex-col lg:gap-6 lg:items-center">
+        <div className="uppercase text-white xl:text-center lg:text-center md:text-center sm:text-center">
           <h2 className="font-semibold text-5xl mb-6">Про нас</h2>
           <p className="font-medium leading-tight">
             <span className="text-primary">OBRAZ</span> — перша незалежна

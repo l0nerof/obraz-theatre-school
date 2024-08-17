@@ -2,8 +2,8 @@ import Link from "next/link";
 
 function Socials() {
   return (
-    <div className="flex items-center gap-6 xl:flex-col xl:items-end xl:gap-4">
-      <div className="flex flex-col xl:items-end">
+    <div className="flex items-center gap-6 xl:flex-col xl:items-end xl:gap-4 lg:flex-col lg:items-end lg:gap-4">
+      <div className="flex flex-col xl:items-end lg:items-end">
         <Link
           href="mailto:ts_obraz@ukr.net"
           className="flex items-center gap-3 font-light text-xs text-gray hover:text-primary [&>svg]:hover:fill-primary transition duration-300"
@@ -20,8 +20,9 @@ function Socials() {
               href="https://www.telegram.com/"
               rel="noopener noreferrer"
               target="_blank"
+              className=""
             >
-              <svg className="fill-primary hover:fill-white transition duration-300 w-4 h-4">
+              <svg className="fill-primary hover:fill-white transition duration-300 size-4">
                 <use href="/icons/symbol-defs.svg#icon-telegram"></use>
               </svg>
             </Link>
@@ -33,7 +34,7 @@ function Socials() {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <svg className="fill-primary hover:fill-white transition duration-300 w-4 h-4">
+              <svg className="fill-primary hover:fill-white transition duration-300 size-4">
                 <use href="/icons/symbol-defs.svg#icon-facebook"></use>
               </svg>
             </Link>
@@ -45,7 +46,7 @@ function Socials() {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <svg className="fill-primary hover:fill-white transition duration-300 w-4 h-4">
+              <svg className="fill-primary hover:fill-white transition duration-300 size-4">
                 <use href="/icons/symbol-defs.svg#icon-youtube"></use>
               </svg>
             </Link>
@@ -57,7 +58,7 @@ function Socials() {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <svg className="fill-primary hover:fill-white transition duration-300 w-4 h-4">
+              <svg className="fill-primary hover:fill-white transition duration-300 size-4">
                 <use href="/icons/symbol-defs.svg#icon-tiktok"></use>
               </svg>
             </Link>
@@ -69,7 +70,7 @@ function Socials() {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <svg className="fill-primary hover:fill-white transition duration-300 w-4 h-4">
+              <svg className="fill-primary hover:fill-white transition duration-300 size-4">
                 <use href="/icons/symbol-defs.svg#icon-instagram"></use>
               </svg>
             </Link>

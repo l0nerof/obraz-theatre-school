@@ -23,9 +23,9 @@ const config: Config = {
       screens: {
         xs: "320px",
         sm: { max: "480px" },
-        md: { max: "768px" },
-        lg: { max: "1024px" },
-        xl: { max: "1440px" },
+        md: { min: "481px", max: "768px" },
+        lg: { min: "769px", max: "1024px" },
+        xl: { min: "1025px", max: "1440px" },
       },
     },
   },
