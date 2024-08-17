@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Rights() {
   return (
-    <div className="flex flex-col items-center gap-2">
+    <div className="flex flex-col items-center gap-2 md:hidden">
       <Link
         href="/"
         className="underline text-gray text-xs hover:text-primary transition duration-300"

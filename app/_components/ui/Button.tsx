@@ -20,7 +20,7 @@ function Button({ children, type }: IButtonProps) {
   return (
     <Link
       href="/"
-      className="uppercase text-black bg-primary px-12 py-4 rounded-2xl font-semibold text-xl hover:bg-white transition duration-300"
+      className="uppercase text-black bg-primary px-12 py-4 rounded-2xl font-semibold text-xl hover:bg-white transition duration-300 md:text-lg md:px-10"
     >
       {children}
     </Link>

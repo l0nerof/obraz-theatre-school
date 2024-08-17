@@ -10,11 +10,13 @@ export default function AdvantagesItem({
   iconPath,
 }: IAdvantageItemProps) {
   return (
-    <li>
+    <li className="md:max-w-[233px] md:mx-auto md:flex md:flex-col md:items-center">
       <svg className="text-white w-12 h-12">
         <use href={`/icons/symbol-defs.svg#icon-${iconPath}`} />
       </svg>
-      <p className="font-medium text-white mt-2 leading-normal">{children}</p>
+      <p className="font-medium text-white mt-2 leading-normal md:text-center">
+        {children}
+      </p>
     </li>
   );
 }

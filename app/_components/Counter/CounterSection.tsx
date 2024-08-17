@@ -7,8 +7,8 @@ import CounterList from "./CounterList";
 
 function CounterSection() {
   return (
-    <section className="pb-[120px] xl:pb-16 lg:pb-16">
-      <div className="max-w-[1124px] mx-auto xl:max-w-[928px] lg:max-w-[704px]">
+    <section className="pb-[120px] xl:pb-16 lg:pb-16 md:pb-10">
+      <div className="max-w-[1124px] mx-auto xl:max-w-[928px] lg:max-w-[704px] md:max-w-[448px]">
         <CounterList />
 
         <div className="flex flex-col justify-center items-center mt-8 gap-8">
@@ -21,7 +21,9 @@ function CounterSection() {
               scrollSpyOnce={true}
               className="text-white font-medium text-5xl"
             />
-            <p className="text-white text-2xl">Випускників театральної школи</p>
+            <p className="text-white text-2xl md:text-center">
+              Випускників театральної школи
+            </p>
           </div>
 
           <Button>Доєднуйся до образу</Button>

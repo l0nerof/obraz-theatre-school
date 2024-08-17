@@ -16,7 +16,7 @@ function HeroSlider() {
         clickable: true,
       }}
       modules={[Pagination, Autoplay]}
-      className="swiper-container w-full h-[600px]"
+      className="swiper-container w-full h-[600px] md:h-[464px]"
       autoplay={{ delay: 4000 }}
       loop={true}
     >

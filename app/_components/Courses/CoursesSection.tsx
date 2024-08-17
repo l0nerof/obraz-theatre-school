@@ -2,13 +2,13 @@ import CourseItem from "./CourseItem";
 
 export default function CoursesSection() {
   return (
-    <section id="courses" className="py-32 xl:py-16 lg:py-16">
-      <div className="max-w-[1124px] mx-auto xl:max-w-[724px] lg:max-w-[704px]">
+    <section id="courses" className="py-32 xl:py-16 lg:py-16 md:py-10">
+      <div className="max-w-[1124px] mx-auto xl:max-w-[724px] lg:max-w-[704px] md:max-w-[448px]">
         <h2 className="uppercase text-center text-primary font-semibold text-5xl">
           Наші курси
         </h2>
 
-        <ul className="grid items-start gap-x-8 gap-y-16 mt-8 grid-cols-3 xl:grid-cols-2 lg:grid-cols-2">
+        <ul className="grid items-start gap-x-8 gap-y-16 mt-8 grid-cols-3 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1">
           <CourseItem photoUrl="bg-[url('/courses/course1.jpg')]">
             Акторська майстерність для дорослих
           </CourseItem>

@@ -18,7 +18,7 @@ function ActualSlider() {
       modules={[Pagination, Autoplay]}
       slidesPerView={3}
       spaceBetween={32}
-      className="actual-container h-[336px] mt-4 xl:h-[304px] lg:h-[304px]"
+      className="actual-container h-[336px] mt-4 xl:h-[304px] lg:h-[304px] md:h-[304px]"
       autoplay={{ delay: 4000 }}
       loop={true}
       observer={true}

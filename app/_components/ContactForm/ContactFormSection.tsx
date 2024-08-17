@@ -7,8 +7,8 @@ interface IContactFormSectionProps {
 
 function ContactFormSection({ children }: IContactFormSectionProps) {
   return (
-    <section className="pb-32 xl:pb-16 lg:pb-16">
-      <div className="max-w-[976px] rounded-3xl mx-auto py-12 px-8 bg-primary flex flex-col xl:max-w-[904px] lg:max-w-[704px]">
+    <section className="pb-32 xl:pb-16 lg:pb-16 md:pb-10">
+      <div className="max-w-[976px] rounded-3xl mx-auto py-12 px-8 bg-primary flex flex-col xl:max-w-[904px] lg:max-w-[704px] md:max-w-[448px]">
         <h3 className="font-semibold text-[32px] text-black mb-3">
           {children}
         </h3>
@@ -17,16 +17,19 @@ function ContactFormSection({ children }: IContactFormSectionProps) {
           години
         </p>
 
-        <form action="" className="flex gap-7 mt-8 xl:flex-wrap lg:flex-wrap">
+        <form
+          action=""
+          className="flex gap-7 mt-8 xl:flex-wrap lg:flex-wrap md:flex-wrap"
+        >
           <input
             type="text"
-            className="bg-transparent border-2 rounded-2xl leading-normal py-4 px-8 border-black text-black placeholder:text-black xl:w-[48%] lg:w-[47%]"
+            className="bg-transparent border-2 rounded-2xl leading-normal py-4 px-8 border-black text-black placeholder:text-black xl:w-[48%] lg:w-[47%] md:w-full"
             placeholder="Ім'я*"
             required
           />
           <input
             type="text"
-            className="bg-transparent border-2 rounded-2xl leading-normal p-4 px-8 border-black text-black  placeholder:text-black xl:w-[48%] lg:w-[47%]"
+            className="bg-transparent border-2 rounded-2xl leading-normal p-4 px-8 border-black text-black  placeholder:text-black xl:w-[48%] lg:w-[47%] md:w-full"
             placeholder="Телефон*"
             required
           />

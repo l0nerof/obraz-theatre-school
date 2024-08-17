@@ -7,9 +7,9 @@ import Promo from "../ui/Promo";
 function Header() {
   return (
     <header className="bg-black pt-3">
-      <div className="max-w-[1296px] mx-auto flex items-center justify-between gap-6  xl:max-w-[928px] lg:max-w-[704px]">
+      <div className="max-w-[1296px] mx-auto flex items-center justify-between gap-6 xl:max-w-[928px] lg:max-w-[704px] md:max-w-[448px]">
         <Contacts />
-        <Logo className="basis-4/12 w-[360px] h-16 xl:w-[270px] xl:h-12 xl:basis-5/12 lg:w-[270px] lg:h-12 lg:basis-5/12" />
+        <Logo className="basis-4/12 w-[360px] h-16 xl:w-[270px] xl:h-12 xl:basis-5/12 lg:w-[270px] lg:h-12 lg:basis-5/12 md:w-[227px] md:h-10" />
         <Navigation />
       </div>
 

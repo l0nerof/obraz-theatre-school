@@ -3,7 +3,7 @@ import Link from "next/link";
 function Navigation() {
   return (
     <nav className="flex gap-6 items-center">
-      <ul className="flex gap-3 lg:hidden">
+      <ul className="flex gap-3 lg:hidden md:hidden">
         <li>
           <Link
             href="#courses"
@@ -30,7 +30,7 @@ function Navigation() {
       </ul>
 
       <Link href="tel:555-666-7777">
-        <svg className="text-primary hover:text-white transition duration-300 size-8">
+        <svg className="text-primary hover:text-white transition duration-300 size-8 md:hidden">
           <use href="/icons/symbol-defs.svg#icon-phone"></use>
         </svg>
       </Link>
