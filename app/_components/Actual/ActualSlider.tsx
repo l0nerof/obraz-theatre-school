@@ -21,6 +21,8 @@ function ActualSlider() {
       className="actual-container h-[336px] mt-4 xl:h-[304px]"
       autoplay={{ delay: 4000 }}
       loop={true}
+      observer={true}
+      observeParents={true}
       breakpoints={{
         480: {
           slidesPerView: 1,
@@ -29,8 +31,9 @@ function ActualSlider() {
           slidesPerView: 2,
           spaceBetween: 48,
         },
-        1440: {
+        1441: {
           slidesPerView: 3,
+          spaceBetween: 32,
         },
       }}
     >
