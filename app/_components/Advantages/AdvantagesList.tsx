@@ -2,7 +2,7 @@ import AdvantagesItem from "./AdvantagesItem";
 
 function AdvantagesList() {
   return (
-    <ul className="mt-4 grid grid-cols-2 gap-8 md:grid-cols-1">
+    <ul className="mt-4 grid grid-cols-2 gap-8 md:grid-cols-1 sm:grid-cols-1">
       <AdvantagesItem iconPath="support-agent">
         Залишайте <span className="text-primary">заявку</span> на сайті, по
         телефону чи в соц. мережах

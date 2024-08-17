@@ -2,7 +2,7 @@ import CounterItem from "./CounterItem";
 
 function CounterList() {
   return (
-    <ul className="flex gap-9 xl:grid xl:grid-cols-5 xl:grid-rows-2 lg:grid lg:grid-cols-5 lg:grid-rows-2 md:grid md:grid-cols-1">
+    <ul className="flex gap-9 xl:grid xl:grid-cols-5 xl:grid-rows-2 lg:grid lg:grid-cols-5 lg:grid-rows-2 md:grid md:grid-cols-1 sm:grid sm:grid-cols-1">
       <CounterItem
         end={15}
         className="xl:col-start-1 xl:col-end-2 lg:col-start-1 lg:col-end-2"

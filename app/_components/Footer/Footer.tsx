@@ -11,7 +11,7 @@ function Footer() {
         <Promo />
       </Carousel>
 
-      <div className="max-w-[1296px] mx-auto flex items-center justify-between gap-6 xl:max-w-[904px] lg:max-w-[704px] md:max-w-[448px]">
+      <div className="max-w-[1296px] mx-auto flex items-center justify-between gap-6 xl:max-w-[904px] lg:max-w-[704px] md:max-w-[448px] sm:max-w-[272px] sm:flex-col">
         <Logo className="basis-1/3 w-[200px] h-9 xl:basis-0 lg:basis-0 md:basis-0" />
         <Rights />
         <Socials />

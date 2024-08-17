@@ -16,9 +16,11 @@ function CounterItem({ children, end, className }: ICounterItemProps) {
         separator=""
         enableScrollSpy
         scrollSpyOnce={true}
-        className="text-primary font-medium text-5xl md:flex md:flex-col md:items-center"
+        className="text-primary font-medium text-5xl md:flex md:flex-col md:items-center sm:flex sm:flex-col sm:items-center "
       />
-      <p className="text-white text-xl mt-2 md:text-center">{children}</p>
+      <p className="text-white text-xl mt-2 md:text-center sm:text-center sm:text-lg">
+        {children}
+      </p>
     </li>
   );
 }

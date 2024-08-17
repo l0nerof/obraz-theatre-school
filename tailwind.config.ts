@@ -21,7 +21,6 @@ const config: Config = {
         black: "#0B0B0B",
       },
       screens: {
-        xs: "320px",
         sm: { max: "480px" },
         md: { min: "481px", max: "768px" },
         lg: { min: "769px", max: "1024px" },

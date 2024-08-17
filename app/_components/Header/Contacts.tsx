@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Contacts() {
   return (
-    <div className="flex gap-6 items-center basis-1/3 lg:basis-1/6 md:hidden">
+    <div className="flex gap-6 items-center basis-1/3 lg:basis-1/6 md:hidden sm:hidden">
       <ul className="flex gap-4">
         <li>
           <Link

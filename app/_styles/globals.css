@@ -27,6 +27,13 @@
     background-color: transparent;
   }
 
+  @media (max-width: 480px) {
+    .swiper-container .swiper-pagination-bullet-active {
+      width: 18px;
+      height: 18px;
+    }
+  }
+
   .swiper-container .swiper-pagination-horizontal {
     display: flex;
     flex-direction: row;
