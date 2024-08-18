@@ -18,14 +18,30 @@ function Header() {
   };
 
   useEffect(() => {
+    const lockScroll = () => {
+      document.body.style.overflow = "hidden";
+      document.body.style.position = "fixed";
+      document.body.style.width = "100%";
+      document.body.style.top = `-${window.scrollY}px`;
+    };
+
+    const unlockScroll = () => {
+      const scrollY = document.body.style.top;
+      document.body.style.overflow = "";
+      document.body.style.position = "";
+      document.body.style.width = "";
+      document.body.style.top = "";
+      window.scrollTo(0, parseInt(scrollY || "0") * -1);
+    };
+
     if (isOpen) {
-      document.body.classList.add("overflow-y-hidden");
+      lockScroll();
     } else {
-      document.body.classList.remove("overflow-y-hidden");
+      unlockScroll();
     }
 
     return () => {
-      document.body.classList.remove("overflow-y-hidden");
+      unlockScroll(); // очищення при розмонтуванні компонента
     };
   }, [isOpen]);
 
