@@ -5,7 +5,7 @@ function BurgerContacts() {
     <ul className="flex flex-col gap-4">
       <li>
         <Link
-          href="tel:555-666-7777"
+          href="tel:0663175717"
           className="flex items-center gap-[6px] font-light text-sm text-gray hover:text-primary [&>svg]:hover:fill-primary transition duration-300"
         >
           <svg className="fill-gray size-[14px]">

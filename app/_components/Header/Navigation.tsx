@@ -29,7 +29,7 @@ function Navigation() {
         </li>
       </ul>
 
-      <Link href="tel:555-666-7777" className="lg:hidden md:hidden sm:hidden">
+      <Link href="tel:0663175717" className="lg:hidden md:hidden sm:hidden">
         <svg className="text-primary hover:text-white transition duration-300 size-8">
           <use href="/icons/symbol-defs.svg#icon-phone"></use>
         </svg>
