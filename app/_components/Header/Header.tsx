@@ -41,7 +41,7 @@ function Header() {
     }
 
     return () => {
-      unlockScroll(); // очищення при розмонтуванні компонента
+      unlockScroll();
     };
   }, [isOpen]);
 

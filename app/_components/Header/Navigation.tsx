@@ -18,7 +18,7 @@ function Navigation() {
 
         <li>
           <Link
-            href="/blog"
+            href="https://teatr-obraz.kiev.ua/statii"
             className="flex items-center gap-[2px] text-white hover:text-primary transition duration-300 uppercase"
           >
             Блог

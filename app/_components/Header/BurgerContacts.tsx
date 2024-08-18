@@ -35,7 +35,7 @@ function BurgerContacts() {
           className="flex items-center gap-[6px] font-light text-sm text-gray hover:text-primary [&>svg]:hover:fill-primary transition duration-300"
         >
           <svg className="fill-gray size-[14px]">
-            <use href="/icons/symbol-defs.svg#icon-mail"></use>
+            <use href="/icons/symbol-defs.svg#icon-distance"></use>
           </svg>
           вул. Бульварно-Кудрявська, 49/13
         </Link>

@@ -28,7 +28,7 @@ function BurgerNavigation({ onClick }: IBurgerNavigationProps) {
 
         <li onClick={onClick}>
           <Link
-            href="/blog"
+            href="https://teatr-obraz.kiev.ua/statii"
             className="text-white hover:text-primary transition duration-300 uppercase text-2xl"
           >
             Блог
