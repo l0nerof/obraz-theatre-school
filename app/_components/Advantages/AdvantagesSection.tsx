@@ -3,7 +3,7 @@ import AdvantagesSlider from "./AdvantagesSlider";
 
 export default function AdvantagesSection() {
   return (
-    <section className="pb-32 xl:pb-16 first-letter:lg:pb-16 md:pb-10 sm:pb-6">
+    <section className="pb-32 xl:pb-16 first-letter:lg:pb-16 md:pb-10 sm:pb-10">
       <div className="max-w-[1148px] mx-auto flex justify-between gap-5 xl:max-w-[750px] xl:flex-col lg:max-w-[704px] lg:flex-col md:max-w-[448px] md:flex-col sm:max-w-[272px] sm:flex-col">
         <div className="basis-2/4">
           <div>

@@ -7,7 +7,7 @@ import CounterList from "./CounterList";
 
 function CounterSection() {
   return (
-    <section className="pb-[120px] xl:pb-16 lg:pb-16 md:pb-10 sm:pb-6">
+    <section className="pb-[120px] xl:pb-16 lg:pb-16 md:pb-10 sm:pb-10">
       <div className="max-w-[1124px] mx-auto xl:max-w-[928px] lg:max-w-[704px] md:max-w-[448px] sm:max-w-[272px]">
         <CounterList />
 
