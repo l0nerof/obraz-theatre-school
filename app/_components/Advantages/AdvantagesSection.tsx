@@ -16,7 +16,7 @@ export default function AdvantagesSection() {
               майстерності не тільки для професіоналів, а й для усіх охочих.
             </p>
 
-            <p className="text-white mt-4 leading-tight xl:text-center md:text-center sm:text-sm">
+            <p className="text-white mt-4 leading-tight xl:text-center lg:text-center md:text-center sm:text-sm">
               Наша мета — допомогти кожній людині відчувати впевненість у собі,
               відкривати творчі таланти та проявляти свої здібності у будь-якій
               сфері життя!

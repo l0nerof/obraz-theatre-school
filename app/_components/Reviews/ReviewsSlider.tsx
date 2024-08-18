@@ -22,7 +22,7 @@ function ReviewsSlider() {
       autoplay={{ delay: 4000 }}
       loop={true}
       breakpoints={{
-        320: {
+        0: {
           slidesPerView: 1,
         },
         700: {

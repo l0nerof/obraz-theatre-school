@@ -37,7 +37,7 @@ function Navigation() {
 
       <Link
         href="tel:555-666-7777"
-        className="hidden xl:hidden md:block sm:block"
+        className="hidden xl:hidden lg:block md:block sm:block"
       >
         <svg className="text-primary hover:text-white transition duration-300 size-8 ">
           <use href="/icons/symbol-defs.svg#icon-phone"></use>
