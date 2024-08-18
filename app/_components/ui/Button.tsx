@@ -19,7 +19,7 @@ function Button({ children, type }: IButtonProps) {
 
   return (
     <Link
-      href="/"
+      href="#contact"
       className="uppercase text-black bg-primary px-12 py-4 rounded-2xl font-semibold text-xl hover:bg-white transition duration-300 md:text-lg md:px-10 sm:text-base sm:font-medium sm:p-2 sm:text-center"
     >
       {children}
